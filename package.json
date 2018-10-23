@@ -1,6 +1,6 @@
 {
-  "name": "storybook-chrome-screenshot",
-  "version": "1.3.0",
+  "name": "krisnero-storybook-chrome-screenshot",
+  "version": "1.3.03",
   "description": "A Storybook addon, Save the screenshot image of your stories! via puppeteer.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsuyoshiwada/storybook-chrome-screenshot.git"
+    "url": "git+https://github.com/TriKNero/storybook-chrome-screenshot"
   },
-  "author": "tsuyoshiwada",
+  "author": "krisnerodev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tsuyoshiwada/storybook-chrome-screenshot/issues"
+    "url": "https://github.com/TriKNero/storybook-chrome-screenshot#readme"
   },
-  "homepage": "https://github.com/tsuyoshiwada/storybook-chrome-screenshot#readme",
+  "homepage": "https://github.com/TriKNero/storybook-chrome-screenshot#readme",
   "files": [
     "lib",
     "CHANGELOG.md",

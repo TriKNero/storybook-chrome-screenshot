@@ -13,6 +13,7 @@
 
 `storybook-chrome-screenshot` takes a screenshot and saves it.  
 It is primarily responsible for image generation necessary for Visual Testing such as `reg-viz`.
+This package is fork from original storybook-chrome-screenshot with fixed screenshot height.
 
 ## Table of Contents
 
@@ -48,7 +49,7 @@ It is primarily responsible for image generation necessary for Visual Testing su
 
 - :camera: Take screenshots of each stories. via [Puppeteer][puppeteer].
 - :rocket: Provide flexible screenshot shooting options.
-- :tada: Supports the following framework / View framework.
+- :tada: Supports the following framework / View framework. 
   - [React](https://github.com/facebook/react/)
   - [Angular](https://github.com/angular/angular)
   - [Vue.js](https://github.com/vuejs/vue)
@@ -301,9 +302,9 @@ console.log(getScreenshotOptions());
 ## Command Line Options
 
 ```bash
-$ $(npm bin)/storybook-chrome-screenshot --help
+$ $(npm bin)/krisnero-storybook-chrome-screenshot --help
 
-  Usage: storybook-chrome-screenshot [options]
+  Usage: krisnero-storybook-chrome-screenshot [options]
 
 
   Options:
